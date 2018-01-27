@@ -1,0 +1,15 @@
+.container{
+	width: 950px;
+	margin: 0 auto;
+}
+.section_footer{
+	background-color: #d55727;
+}
+.footer_content{
+	margin-left: 284px;
+}	
+.footer_img{
+	display: inline-block;
+	padding:13px 74px 13px 0px;
+	vertical-align: middle;
+}

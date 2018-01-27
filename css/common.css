@@ -1,0 +1,13 @@
+.container{
+	width: 950px;
+	margin: 0 auto;
+}
+.title::after{
+	content: '';
+	display: block;
+	width: 42px;
+	height: 2px;
+	background-color: #d55727;
+	display: block;
+	margin: 32px auto 0;
+}

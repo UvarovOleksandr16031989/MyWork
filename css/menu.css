@@ -1,0 +1,25 @@
+.container{
+	width: 950px;
+	margin: 0 auto;
+}
+.section_menu{
+	background-color: #36b7b3;
+	
+	height: 0;
+}
+.menu_content{
+	margin-left:  157px;
+}
+.menu_content_item{
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 62px;
+	margin-right: 30px;
+	padding: 13px 14px;
+	visibility: hidden;
+}
+.menu_content_item:hover{
+	background-color: #d55727;
+}

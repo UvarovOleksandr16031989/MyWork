@@ -1,0 +1,10 @@
+.section_history{
+
+	background: url('../images/pic/bg/bg_history.png') no-repeat center;
+	background-size: cover;
+}
+.history_img{
+	background-color: rgba(0, 0, 0, 0.5);
+	text-align: center;
+	padding: 30px 0 30px 0;
+}

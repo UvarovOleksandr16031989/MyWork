@@ -1,0 +1,87 @@
+.container{
+	width: 950px;
+	margin: 0 auto;
+}
+.section_heder{
+	background: url('../images/pic/bg/heder_bg.png') no-repeat center;
+	background-size: cover;
+}
+.heder_logo{
+	padding: 104px 0 120px 0;
+	text-align: center;
+}
+.heder_button{
+	text-align: center;
+	padding: 0 0 70px 0;
+
+}
+.heder_batton_item{
+	display: inline-block;
+	line-height: 34px;
+	width:  34px;
+	background-color: #36b7b3;
+	border-radius: 49px; 
+	text-align: center;
+	cursor: pointer;
+}
+.heder__batton_img{
+	vertical-align: middle;
+}
+.batton_top{
+	position: absolute;
+	display: inline-block;
+	top: 79px;
+	right: 0;
+	background-color: #36b7b3;
+	width:  47px;
+	line-height: 52px;
+	text-align: center;
+}
+.button__top_img{
+	vertical-align: middle;
+}
+/* ---- */
+.botton_bottom{
+	position: fixed;
+	display: inline-block;
+	bottom: 59px;
+	right: 0;
+	background-color: #36b7b3;
+	width:  47px;
+	line-height: 52px;
+	text-align: center;
+	transform: rotate(180deg);
+}
+#chekk{
+	display: none;
+}
+#chekk:checked + .section_menu{
+
+	height: 64px;
+	transition: all 1s ease;
+	
+}
+.botton__bottom_img{
+	vertical-align: middle;
+}
+
+#chekk:checked+ .section_menu>.container>.menu_content>.menu_content_item{
+visibility: visible;
+}
+
+
+
+
+
+textarea, 
+textarea:active, 
+textarea:focus {
+    outline: none;
+    resize: none;
+}
+button, 
+button:active, 
+button:focus{
+   outline: none;
+   border: none; 
+}
